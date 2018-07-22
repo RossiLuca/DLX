@@ -1,0 +1,170 @@
+Information: Building the design 'bidir_shift_rot_N_interface_NBIT32'. (HDL-193)
+Warning: Can't find the design 'bidir_shift_rot_N_interface_NBIT32'
+	in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'bidir_shift_rot_N_interface_NBIT32' in 'ALU_v2'. (LINK-5)
+Warning: Design 'ALU_v2' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : ALU_v2
+Version: Z-2007.03-SP1
+Date   : Thu Oct 19 00:18:02 2017
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: sumnsub_reg
+              (positive level-sensitive latch)
+  Endpoint: AleqB (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  ALU_v2             5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  sumnsub_reg/enable (**SEQGEN**)                         0.00       0.00 r
+  sumnsub_reg/Q (**SEQGEN**)                              0.00       0.00 r
+  ADDSUB/addnsub (AddSubN_Nbit32)                         0.00       0.00 r
+  ADDSUB/U94/Z (XOR2_X1)                                  0.14       0.14 r
+  ADDSUB/STCG/B[11] (SparseTreeCarryGenN_Nbit32)          0.00       0.14 r
+  ADDSUB/STCG/PGB_0_12/B (PGblock_21)                     0.00       0.14 r
+  ADDSUB/STCG/PGB_0_12/U2/Z (XOR2_X1)                     0.05       0.19 f
+  ADDSUB/STCG/PGB_0_12/P (PGblock_21)                     0.00       0.19 f
+  ADDSUB/STCG/PG1_2_1_6/P1 (PG_23)                        0.00       0.19 f
+  ADDSUB/STCG/PG1_2_1_6/U3/ZN (AOI21_X1)                  0.05       0.24 r
+  ADDSUB/STCG/PG1_2_1_6/U1/ZN (INV_X1)                    0.02       0.26 f
+  ADDSUB/STCG/PG1_2_1_6/Gout (PG_23)                      0.00       0.26 f
+  ADDSUB/STCG/PG1_2_2_3/G1 (PG_11)                        0.00       0.26 f
+  ADDSUB/STCG/PG1_2_2_3/U3/ZN (AOI21_X1)                  0.05       0.31 r
+  ADDSUB/STCG/PG1_2_2_3/U2/ZN (INV_X1)                    0.03       0.34 f
+  ADDSUB/STCG/PG1_2_2_3/Gout (PG_11)                      0.00       0.34 f
+  ADDSUB/STCG/PG3_3_4/G2 (PG_5)                           0.00       0.34 f
+  ADDSUB/STCG/PG3_3_4/U3/ZN (AOI21_X1)                    0.04       0.38 r
+  ADDSUB/STCG/PG3_3_4/U2/ZN (INV_X1)                      0.02       0.41 f
+  ADDSUB/STCG/PG3_3_4/Gout (PG_5)                         0.00       0.41 f
+  ADDSUB/STCG/G3_E_4_3/G1 (G_5)                           0.00       0.41 f
+  ADDSUB/STCG/G3_E_4_3/U2/ZN (AOI21_X1)                   0.05       0.46 r
+  ADDSUB/STCG/G3_E_4_3/U1/ZN (INV_X1)                     0.03       0.49 f
+  ADDSUB/STCG/G3_E_4_3/Gout (G_5)                         0.00       0.49 f
+  ADDSUB/STCG/U2/Z (CLKBUF_X3)                            0.07       0.56 f
+  ADDSUB/STCG/Cout[4] (SparseTreeCarryGenN_Nbit32)        0.00       0.56 f
+  ADDSUB/CSN/Ci[4] (CarrySumN_Nbit32)                     0.00       0.56 f
+  ADDSUB/CSN/CSN_4/Ci (CSBlockN_Nbit4_4)                  0.00       0.56 f
+  ADDSUB/CSN/CSN_4/MUX/S (mux21N_N5_4)                    0.00       0.56 f
+  ADDSUB/CSN/CSN_4/MUX/muxes_1/S (MUX21_19)               0.00       0.56 f
+  ADDSUB/CSN/CSN_4/MUX/muxes_1/U2/ZN (AOI22_X1)           0.07       0.63 r
+  ADDSUB/CSN/CSN_4/MUX/muxes_1/U1/ZN (INV_X1)             0.02       0.65 f
+  ADDSUB/CSN/CSN_4/MUX/muxes_1/Y (MUX21_19)               0.00       0.65 f
+  ADDSUB/CSN/CSN_4/MUX/U[1] (mux21N_N5_4)                 0.00       0.65 f
+  ADDSUB/CSN/CSN_4/S[1] (CSBlockN_Nbit4_4)                0.00       0.65 f
+  ADDSUB/CSN/S[17] (CarrySumN_Nbit32)                     0.00       0.65 f
+  ADDSUB/S[17] (AddSubN_Nbit32)                           0.00       0.65 f
+  COMPLog/Diff[17] (Comp_Nbit32)                          0.00       0.65 f
+  COMPLog/U83/ZN (NOR4_X1)                                0.09       0.74 r
+  COMPLog/U74/ZN (AND4_X1)                                0.07       0.81 r
+  COMPLog/U69/ZN (NAND2_X1)                               0.03       0.85 f
+  COMPLog/U78/ZN (NAND2_X1)                               0.03       0.88 r
+  COMPLog/U77/Z (XOR2_X1)                                 0.05       0.94 r
+  COMPLog/AleqB (Comp_Nbit32)                             0.00       0.94 r
+  AleqB (out)                                             0.00       0.94 r
+  data arrival time                                                  0.94
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+
+Information: Building the design 'bidir_shift_rot_N_interface_NBIT32'. (HDL-193)
+Warning: Can't find the design 'bidir_shift_rot_N_interface_NBIT32'
+	in the library 'WORK'. (LBR-1)
+Warning: Unable to resolve reference 'bidir_shift_rot_N_interface_NBIT32' in 'ALU_v2'. (LINK-5)
+Warning: Design 'ALU_v2' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : ALU_v2
+Version: Z-2007.03-SP1
+Date   : Thu Oct 19 00:18:46 2017
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: enADDSUB_reg
+              (positive level-sensitive latch)
+  Endpoint: AleqB (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  ALU_v2             5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  enADDSUB_reg/G (DLH_X1)                                 0.00       0.00 r
+  enADDSUB_reg/Q (DLH_X1)                                 0.08       0.08 f
+  U613/ZN (INV_X4)                                        0.15       0.23 r
+  U1037/ZN (NOR2_X1)                                      0.07       0.30 f
+  ADDSUB/B[0] (AddSubN_Nbit32)                            0.00       0.30 f
+  ADDSUB/U109/Z (XOR2_X1)                                 0.09       0.38 f
+  ADDSUB/STCG/B[0] (SparseTreeCarryGenN_Nbit32)           0.00       0.38 f
+  ADDSUB/STCG/Cinprop_0_1/B (PGblock_0)                   0.00       0.38 f
+  ADDSUB/STCG/Cinprop_0_1/U2/Z (XOR2_X1)                  0.08       0.46 f
+  ADDSUB/STCG/Cinprop_0_1/P (PGblock_0)                   0.00       0.46 f
+  ADDSUB/STCG/U6/ZN (AOI21_X1)                            0.04       0.50 r
+  ADDSUB/STCG/U4/ZN (INV_X1)                              0.02       0.53 f
+  ADDSUB/STCG/G1_2_1_1/G2 (G_0)                           0.00       0.53 f
+  ADDSUB/STCG/G1_2_1_1/U2/ZN (AOI21_X1)                   0.04       0.57 r
+  ADDSUB/STCG/G1_2_1_1/U1/ZN (INV_X1)                     0.02       0.59 f
+  ADDSUB/STCG/G1_2_1_1/Gout (G_0)                         0.00       0.59 f
+  ADDSUB/STCG/G1_2_2_1/G2 (G_8)                           0.00       0.59 f
+  ADDSUB/STCG/G1_2_2_1/U1/ZN (AOI21_X1)                   0.04       0.63 r
+  ADDSUB/STCG/G1_2_2_1/U2/ZN (INV_X1)                     0.03       0.65 f
+  ADDSUB/STCG/G1_2_2_1/Gout (G_8)                         0.00       0.65 f
+  ADDSUB/STCG/G3_3_2/G2 (G_7)                             0.00       0.65 f
+  ADDSUB/STCG/G3_3_2/U2/ZN (AOI21_X1)                     0.04       0.69 r
+  ADDSUB/STCG/G3_3_2/U1/ZN (INV_X1)                       0.03       0.72 f
+  ADDSUB/STCG/G3_3_2/Gout (G_7)                           0.00       0.72 f
+  ADDSUB/STCG/G3_E_4_3/G2 (G_5)                           0.00       0.72 f
+  ADDSUB/STCG/G3_E_4_3/U2/ZN (AOI21_X1)                   0.04       0.76 r
+  ADDSUB/STCG/G3_E_4_3/U1/ZN (INV_X1)                     0.03       0.80 f
+  ADDSUB/STCG/G3_E_4_3/Gout (G_5)                         0.00       0.80 f
+  ADDSUB/STCG/U2/Z (CLKBUF_X3)                            0.07       0.86 f
+  ADDSUB/STCG/Cout[4] (SparseTreeCarryGenN_Nbit32)        0.00       0.86 f
+  ADDSUB/CSN/Ci[4] (CarrySumN_Nbit32)                     0.00       0.86 f
+  ADDSUB/CSN/CSN_4/Ci (CSBlockN_Nbit4_4)                  0.00       0.86 f
+  ADDSUB/CSN/CSN_4/MUX/S (mux21N_N5_4)                    0.00       0.86 f
+  ADDSUB/CSN/CSN_4/MUX/muxes_1/S (MUX21_19)               0.00       0.86 f
+  ADDSUB/CSN/CSN_4/MUX/muxes_1/U2/ZN (AOI22_X1)           0.07       0.93 r
+  ADDSUB/CSN/CSN_4/MUX/muxes_1/U1/ZN (INV_X1)             0.03       0.96 f
+  ADDSUB/CSN/CSN_4/MUX/muxes_1/Y (MUX21_19)               0.00       0.96 f
+  ADDSUB/CSN/CSN_4/MUX/U[1] (mux21N_N5_4)                 0.00       0.96 f
+  ADDSUB/CSN/CSN_4/S[1] (CSBlockN_Nbit4_4)                0.00       0.96 f
+  ADDSUB/CSN/S[17] (CarrySumN_Nbit32)                     0.00       0.96 f
+  ADDSUB/S[17] (AddSubN_Nbit32)                           0.00       0.96 f
+  COMPLog/Diff[17] (Comp_Nbit32)                          0.00       0.96 f
+  COMPLog/U83/ZN (NOR4_X1)                                0.09       1.05 r
+  COMPLog/U74/ZN (AND4_X1)                                0.07       1.12 r
+  COMPLog/U69/ZN (NAND2_X1)                               0.03       1.15 f
+  COMPLog/U78/ZN (NAND2_X1)                               0.03       1.19 r
+  COMPLog/U77/Z (XOR2_X1)                                 0.05       1.24 r
+  COMPLog/AleqB (Comp_Nbit32)                             0.00       1.24 r
+  AleqB (out)                                             0.00       1.24 r
+  data arrival time                                                  1.24
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+

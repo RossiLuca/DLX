@@ -1,0 +1,76 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : bidir_shift_rot_N_interface_Nbit32
+Version: Z-2007.03-SP1
+Date   : Thu Oct 19 00:15:04 2017
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: moves[0] (input port)
+  Endpoint: data_out[5]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  bidir_shift_rot_N_interface_Nbit32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  moves[0] (in)                                           0.00       0.00 r
+  U268/ZN (NAND2_X1)                                      0.03       0.03 f
+  U264/ZN (XNOR2_X1)                                      0.05       0.08 f
+  U267/ZN (XNOR2_X1)                                      0.06       0.14 f
+  U276/ZN (OAI22_X1)                                      0.06       0.20 r
+  bidir1/sel[1] (bidir_shift_rot_N_Nbit32)                0.00       0.20 r
+  bidir1/U141/Z (BUF_X1)                                  0.05       0.24 r
+  bidir1/U6/Z (BUF_X1)                                    0.05       0.29 r
+  bidir1/U132/Z (BUF_X4)                                  0.09       0.39 r
+  bidir1/muxes_21/s[1] (mux32to1_27)                      0.00       0.39 r
+  bidir1/muxes_21/Mux24/s (Mux2to1_814)                   0.00       0.39 r
+  bidir1/muxes_21/Mux24/U1/ZN (INV_X1)                    0.05       0.43 f
+  bidir1/muxes_21/Mux24/U2/ZN (AOI22_X1)                  0.05       0.48 r
+  bidir1/muxes_21/Mux24/U3/ZN (INV_X1)                    0.02       0.50 f
+  bidir1/muxes_21/Mux24/f (Mux2to1_814)                   0.00       0.50 f
+  bidir1/muxes_21/Mux28/x2 (Mux2to1_810)                  0.00       0.50 f
+  bidir1/muxes_21/Mux28/U2/ZN (AOI22_X1)                  0.06       0.56 r
+  bidir1/muxes_21/Mux28/U3/ZN (INV_X1)                    0.02       0.58 f
+  bidir1/muxes_21/Mux28/f (Mux2to1_810)                   0.00       0.58 f
+  bidir1/muxes_21/Mux30/x2 (Mux2to1_808)                  0.00       0.58 f
+  bidir1/muxes_21/Mux30/U2/ZN (AOI22_X1)                  0.05       0.64 r
+  bidir1/muxes_21/Mux30/U3/ZN (INV_X1)                    0.02       0.66 f
+  bidir1/muxes_21/Mux30/f (Mux2to1_808)                   0.00       0.66 f
+  bidir1/muxes_21/Mux31/x2 (Mux2to1_807)                  0.00       0.66 f
+  bidir1/muxes_21/Mux31/U2/ZN (AOI22_X1)                  0.05       0.71 r
+  bidir1/muxes_21/Mux31/U1/ZN (INV_X1)                    0.02       0.74 f
+  bidir1/muxes_21/Mux31/f (Mux2to1_807)                   0.00       0.74 f
+  bidir1/muxes_21/F (mux32to1_27)                         0.00       0.74 f
+  bidir1/mpxs_21/x1 (Mux2to1_1019)                        0.00       0.74 f
+  bidir1/mpxs_21/U2/ZN (AOI22_X1)                         0.04       0.78 r
+  bidir1/mpxs_21/U3/ZN (INV_X1)                           0.02       0.80 f
+  bidir1/mpxs_21/f (Mux2to1_1019)                         0.00       0.80 f
+  bidir1/data_out[5] (bidir_shift_rot_N_Nbit32)           0.00       0.80 f
+  data_out[5] (out)                                       0.00       0.80 f
+  data arrival time                                                  0.80
+
+  max_delay                                               0.80       0.80
+  output external delay                                   0.00       0.80
+  data required time                                                 0.80
+  --------------------------------------------------------------------------
+  data required time                                                 0.80
+  data arrival time                                                 -0.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+

@@ -1,0 +1,133 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : BoothMulWallace_Nbit32
+Version: Z-2007.03-SP1
+Date   : Thu Oct 19 00:08:56 2017
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: a[0] (input port)
+  Endpoint: p[28] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  BoothMulWallace_Nbit32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  a[0] (in)                                               0.00       0.00 f
+  U1303/ZN (INV_X1)                                       0.04       0.04 r
+  add_72/A[0] (BoothMulWallace_Nbit32_DW01_inc_0)         0.00       0.04 r
+  add_72/U1/ZN (AND4_X1)                                  0.08       0.12 r
+  add_72/U1_1_4/CO (HA_X1)                                0.06       0.18 r
+  add_72/U1_1_5/CO (HA_X1)                                0.06       0.23 r
+  add_72/U1_1_6/CO (HA_X1)                                0.06       0.29 r
+  add_72/U1_1_7/CO (HA_X1)                                0.06       0.35 r
+  add_72/U1_1_8/CO (HA_X1)                                0.06       0.41 r
+  add_72/U1_1_9/CO (HA_X1)                                0.06       0.46 r
+  add_72/U1_1_10/CO (HA_X1)                               0.06       0.52 r
+  add_72/U1_1_11/CO (HA_X1)                               0.06       0.58 r
+  add_72/U1_1_12/CO (HA_X1)                               0.06       0.64 r
+  add_72/U2/Z (XOR2_X1)                                   0.06       0.71 r
+  add_72/SUM[13] (BoothMulWallace_Nbit32_DW01_inc_0)      0.00       0.71 r
+  U1321/ZN (AOI22_X1)                                     0.03       0.74 f
+  U1237/ZN (OAI21_X1)                                     0.04       0.78 r
+  U1002/ZN (INV_X1)                                       0.02       0.81 f
+  U1320/ZN (NOR2_X1)                                      0.06       0.86 r
+  CSA0/A[13] (CSA_N32_0)                                  0.00       0.86 r
+  CSA0/st0_13/A (FA_499)                                  0.00       0.86 r
+  CSA0/st0_13/U1/Z (XOR2_X1)                              0.08       0.95 r
+  CSA0/st0_13/U3/Z (XOR2_X1)                              0.09       1.03 r
+  CSA0/st0_13/S (FA_499)                                  0.00       1.03 r
+  CSA0/sum_out[13] (CSA_N32_0)                            0.00       1.03 r
+  CSA5/A[13] (CSA_N32_9)                                  0.00       1.03 r
+  CSA5/st0_13/A (FA_339)                                  0.00       1.03 r
+  CSA5/st0_13/U4/Z (XOR2_X1)                              0.08       1.12 r
+  CSA5/st0_13/U3/Z (XOR2_X1)                              0.08       1.20 r
+  CSA5/st0_13/S (FA_339)                                  0.00       1.20 r
+  CSA5/sum_out[13] (CSA_N32_9)                            0.00       1.20 r
+  CSA8/A[13] (CSA_N32_6)                                  0.00       1.20 r
+  CSA8/st0_13/A (FA_243)                                  0.00       1.20 r
+  CSA8/st0_13/U1/Z (XOR2_X1)                              0.09       1.28 r
+  CSA8/st0_13/U3/Z (XOR2_X1)                              0.09       1.37 r
+  CSA8/st0_13/S (FA_243)                                  0.00       1.37 r
+  CSA8/sum_out[13] (CSA_N32_6)                            0.00       1.37 r
+  CSA10/A[13] (CSA_N32_4)                                 0.00       1.37 r
+  CSA10/st0_13/A (FA_179)                                 0.00       1.37 r
+  CSA10/st0_13/U4/Z (XOR2_X1)                             0.08       1.45 r
+  CSA10/st0_13/U3/Z (XOR2_X1)                             0.08       1.54 r
+  CSA10/st0_13/S (FA_179)                                 0.00       1.54 r
+  CSA10/sum_out[13] (CSA_N32_4)                           0.00       1.54 r
+  CSA12/A[13] (CSA_N32_2)                                 0.00       1.54 r
+  CSA12/st0_13/A (FA_115)                                 0.00       1.54 r
+  CSA12/st0_13/U4/Z (XOR2_X1)                             0.08       1.62 r
+  CSA12/st0_13/U3/Z (XOR2_X1)                             0.08       1.71 r
+  CSA12/st0_13/S (FA_115)                                 0.00       1.71 r
+  CSA12/sum_out[13] (CSA_N32_2)                           0.00       1.71 r
+  CSA13/A[13] (CSA_N32_1)                                 0.00       1.71 r
+  CSA13/st0_13/A (FA_83)                                  0.00       1.71 r
+  CSA13/st0_13/U4/Z (XOR2_X1)                             0.09       1.79 r
+  CSA13/st0_13/U1/Z (XOR2_X1)                             0.09       1.88 r
+  CSA13/st0_13/S (FA_83)                                  0.00       1.88 r
+  CSA13/sum_out[13] (CSA_N32_1)                           0.00       1.88 r
+  P4A14/A[13] (P4adderN_Nbit32)                           0.00       1.88 r
+  P4A14/STCG/A[13] (SparseTreeCarryGenNBM_Nbit32)         0.00       1.88 r
+  P4A14/STCG/PGB_0_14/A (PGblock_19)                      0.00       1.88 r
+  P4A14/STCG/PGB_0_14/U2/Z (XOR2_X1)                      0.04       1.93 f
+  P4A14/STCG/PGB_0_14/P (PGblock_19)                      0.00       1.93 f
+  P4A14/STCG/PG1_2_1_7/P1 (PG_22)                         0.00       1.93 f
+  P4A14/STCG/PG1_2_1_7/U2/ZN (AOI21_X1)                   0.04       1.97 r
+  P4A14/STCG/PG1_2_1_7/U3/ZN (INV_X1)                     0.02       1.99 f
+  P4A14/STCG/PG1_2_1_7/Gout (PG_22)                       0.00       1.99 f
+  P4A14/STCG/PG1_2_2_4/G2 (PG_10)                         0.00       1.99 f
+  P4A14/STCG/PG1_2_2_4/U2/ZN (AND2_X1)                    0.04       2.03 f
+  P4A14/STCG/PG1_2_2_4/U1/ZN (OR2_X1)                     0.05       2.08 f
+  P4A14/STCG/PG1_2_2_4/Gout (PG_10)                       0.00       2.08 f
+  P4A14/STCG/PG3_3_4/G1 (PG_5)                            0.00       2.08 f
+  P4A14/STCG/PG3_3_4/U1/ZN (OR2_X1)                       0.06       2.13 f
+  P4A14/STCG/PG3_3_4/Gout (PG_5)                          0.00       2.13 f
+  P4A14/STCG/G3_E_4_3/G1 (G_5)                            0.00       2.13 f
+  P4A14/STCG/G3_E_4_3/U1/ZN (OR2_X1)                      0.06       2.20 f
+  P4A14/STCG/G3_E_4_3/Gout (G_5)                          0.00       2.20 f
+  P4A14/STCG/G3_E_5_6/G2 (G_2)                            0.00       2.20 f
+  P4A14/STCG/G3_E_5_6/U2/ZN (AND2_X1)                     0.05       2.24 f
+  P4A14/STCG/G3_E_5_6/U1/ZN (OR2_X2)                      0.07       2.31 f
+  P4A14/STCG/G3_E_5_6/Gout (G_2)                          0.00       2.31 f
+  P4A14/STCG/Cout[7] (SparseTreeCarryGenNBM_Nbit32)       0.00       2.31 f
+  P4A14/CSN/Ci[7] (CarrySumNBM_Nbit32)                    0.00       2.31 f
+  P4A14/CSN/CSN_7/Ci (CSBlockNBM_Nbit4_1)                 0.00       2.31 f
+  P4A14/CSN/CSN_7/MUX/S (mux21N_N5_1)                     0.00       2.31 f
+  P4A14/CSN/CSN_7/MUX/muxes_0/S (MUX21_5)                 0.00       2.31 f
+  P4A14/CSN/CSN_7/MUX/muxes_0/U3/ZN (INV_X1)              0.04       2.35 r
+  P4A14/CSN/CSN_7/MUX/muxes_0/U2/ZN (AOI22_X1)            0.03       2.37 f
+  P4A14/CSN/CSN_7/MUX/muxes_0/U1/ZN (INV_X1)              0.02       2.40 r
+  P4A14/CSN/CSN_7/MUX/muxes_0/Y (MUX21_5)                 0.00       2.40 r
+  P4A14/CSN/CSN_7/MUX/U[0] (mux21N_N5_1)                  0.00       2.40 r
+  P4A14/CSN/CSN_7/S[0] (CSBlockNBM_Nbit4_1)               0.00       2.40 r
+  P4A14/CSN/S[28] (CarrySumNBM_Nbit32)                    0.00       2.40 r
+  P4A14/S[28] (P4adderN_Nbit32)                           0.00       2.40 r
+  p[28] (out)                                             0.00       2.40 r
+  data arrival time                                                  2.40
+
+  max_delay                                               2.40       2.40
+  output external delay                                   0.00       2.40
+  data required time                                                 2.40
+  --------------------------------------------------------------------------
+  data required time                                                 2.40
+  data arrival time                                                 -2.40
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+

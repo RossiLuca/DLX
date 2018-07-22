@@ -1,0 +1,66 @@
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/000-global.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/001-functions.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.a-iv.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.b-nd2.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.c-mux21.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.d-mux21N.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.e-fa.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.f-rcaN.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.g-PGblock.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.h-G.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.i-PG.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.l-SparseTreeCarryGenN.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.m-CSBlockN.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.n-CarrySumN.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.o-AddSubN.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.p-SparseTreeCarryGenNBM.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.q-CSBlockNBM.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.r-CarrySumNBM.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.s-P4adderN.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.t-CSA.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.u-BoothMulWallace.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.v-Comp.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.z-LogicFun_v2.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.za-Mux2to1.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.zb-mux32to1.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.zc-bidir_shift_rot_N.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU.core/a.b.a.zd-bidir_shift_rot_N_interface.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.a-ALU_v2.vhd
+
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.b-DataMemory.vhd
+
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.c-fd_en.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.d-LatchEn.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.e-RegEn.vhd
+
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.h-mux41.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.i-mux41N.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.l-mux81.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.m-mux81N.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.n-mux161N.vhd
+
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.o-IRAM.vhd
+
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.p-PC.vhd
+
+
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.q-registerfile.vhd
+
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.r-signExtension.vhd
+
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-Datapath.core/a.b.s-zerotest.vhd
+
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.b-datapath.vhd
+
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a.a-CU_HW.vhd
+
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/a-DLX.vhd
+vcom -reportprogress 300 -work work /home/ms17.19/Project/DLX_final/sim/testbench/tb_DLX.vhd
+
+vsim -t 100ps -novopt work.tb_DLX(TEST)
+add wave *
+add wave  sim:/tb_dlx/DUT/CU/*
+add wave  sim:/tb_dlx/DUT/datap/*
+add wave  sim:/tb_dlx/DUT/datap/RF/*
+add wave  sim:/tb_dlx/DUT/datap/ALU/*
+add wave  sim:/tb_dlx/DUT/datap/DataMem/*

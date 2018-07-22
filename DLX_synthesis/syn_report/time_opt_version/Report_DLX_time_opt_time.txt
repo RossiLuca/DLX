@@ -1,0 +1,134 @@
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : DLX
+Version: Z-2007.03-SP1
+Date   : Tue Oct 17 14:59:17 2017
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: CU/CWSE_reg[22]
+              (rising edge-triggered flip-flop clocked by Clk')
+  Endpoint: datap/StatusRegEX/Q_reg
+            (rising edge-triggered flip-flop clocked by Clk)
+  Path Group: Clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  DLX                5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock Clk' (rise edge)                                  1.50       1.50
+  clock network delay (ideal)                             0.00       1.50
+  CU/CWSE_reg[22]/CK (DFF_X1)                             0.00       1.50 r
+  CU/CWSE_reg[22]/Q (DFF_X1)                              0.10       1.60 r
+  CU/OPBMux41_Sel[0] (CU_HW_FUNC_SIZE11_OP_CODE_SIZE6_NALUop4_I_SIZE32_CW_SIZE42)
+                                                          0.00       1.60 r
+  datap/OPBMux41_Sel[0] (datapath_Nbit32_RAM_DEPTH30_I_SIZE32_DATA_MEM_SIZE10_Nlogicfun3_NALUop4)
+                                                          0.00       1.60 r
+  datap/OPBMux41/sel[0] (mux41N_Nbit32_0)                 0.00       1.60 r
+  datap/OPBMux41/row1_2/S (mux21N_N32_5)                  0.00       1.60 r
+  datap/OPBMux41/row1_2/U5/Z (BUF_X1)                     0.04       1.64 r
+  datap/OPBMux41/row1_2/U3/Z (BUF_X1)                     0.06       1.70 r
+  datap/OPBMux41/row1_2/muxes_2/S (MUX21_318)             0.00       1.70 r
+  datap/OPBMux41/row1_2/muxes_2/U1/ZN (INV_X1)            0.03       1.73 f
+  datap/OPBMux41/row1_2/muxes_2/U3/ZN (AOI22_X1)          0.05       1.78 r
+  datap/OPBMux41/row1_2/muxes_2/U2/ZN (INV_X1)            0.02       1.80 f
+  datap/OPBMux41/row1_2/muxes_2/Y (MUX21_318)             0.00       1.80 f
+  datap/OPBMux41/row1_2/U[2] (mux21N_N32_5)               0.00       1.80 f
+  datap/OPBMux41/row2_1/in1[2] (mux21N_N32_4)             0.00       1.80 f
+  datap/OPBMux41/row2_1/muxes_2/in1 (MUX21_286)           0.00       1.80 f
+  datap/OPBMux41/row2_1/muxes_2/U2/ZN (AOI22_X1)          0.05       1.85 r
+  datap/OPBMux41/row2_1/muxes_2/U3/ZN (INV_X1)            0.03       1.88 f
+  datap/OPBMux41/row2_1/muxes_2/Y (MUX21_286)             0.00       1.88 f
+  datap/OPBMux41/row2_1/U[2] (mux21N_N32_4)               0.00       1.88 f
+  datap/OPBMux41/Y[2] (mux41N_Nbit32_0)                   0.00       1.88 f
+  datap/ALU/B[2] (ALU_v2)                                 0.00       1.88 f
+  datap/ALU/U72/ZN (AND2_X1)                              0.04       1.92 f
+  datap/ALU/ADDSUB/B[2] (AddSubN_Nbit32_1)                0.00       1.92 f
+  datap/ALU/ADDSUB/U37/ZN (XNOR2_X1)                      0.06       1.98 f
+  datap/ALU/ADDSUB/STCG/B[2] (SparseTreeCarryGenN_Nbit32_1)
+                                                          0.00       1.98 f
+  datap/ALU/ADDSUB/STCG/PGB_0_3/B (PGblock_62)            0.00       1.98 f
+  datap/ALU/ADDSUB/STCG/PGB_0_3/U2/Z (XOR2_X1)            0.08       2.06 f
+  datap/ALU/ADDSUB/STCG/PGB_0_3/P (PGblock_62)            0.00       2.06 f
+  datap/ALU/ADDSUB/STCG/PG1_2_1_2/P2 (PG_54)              0.00       2.06 f
+  datap/ALU/ADDSUB/STCG/PG1_2_1_2/U2/ZN (AND2_X1)         0.04       2.10 f
+  datap/ALU/ADDSUB/STCG/PG1_2_1_2/Pout (PG_54)            0.00       2.10 f
+  datap/ALU/ADDSUB/STCG/G1_2_2_1/P1 (G_17)                0.00       2.10 f
+  datap/ALU/ADDSUB/STCG/G1_2_2_1/U2/ZN (AOI21_X1)         0.04       2.14 r
+  datap/ALU/ADDSUB/STCG/G1_2_2_1/U1/ZN (INV_X1)           0.03       2.17 f
+  datap/ALU/ADDSUB/STCG/G1_2_2_1/Gout (G_17)              0.00       2.17 f
+  datap/ALU/ADDSUB/STCG/G3_3_2/G2 (G_16)                  0.00       2.17 f
+  datap/ALU/ADDSUB/STCG/G3_3_2/U2/ZN (AOI21_X1)           0.04       2.21 r
+  datap/ALU/ADDSUB/STCG/G3_3_2/U1/ZN (INV_X1)             0.03       2.24 f
+  datap/ALU/ADDSUB/STCG/G3_3_2/Gout (G_16)                0.00       2.24 f
+  datap/ALU/ADDSUB/STCG/G3_E_4_3/G2 (G_14)                0.00       2.24 f
+  datap/ALU/ADDSUB/STCG/G3_E_4_3/U2/ZN (AOI21_X1)         0.04       2.28 r
+  datap/ALU/ADDSUB/STCG/G3_E_4_3/U1/ZN (INV_X1)           0.03       2.31 f
+  datap/ALU/ADDSUB/STCG/G3_E_4_3/Gout (G_14)              0.00       2.31 f
+  datap/ALU/ADDSUB/STCG/G3_E_5_5/G2 (G_12)                0.00       2.31 f
+  datap/ALU/ADDSUB/STCG/G3_E_5_5/U2/ZN (AOI21_X1)         0.05       2.36 r
+  datap/ALU/ADDSUB/STCG/G3_E_5_5/U1/ZN (INV_X1)           0.04       2.40 f
+  datap/ALU/ADDSUB/STCG/G3_E_5_5/Gout (G_12)              0.00       2.40 f
+  datap/ALU/ADDSUB/STCG/Cout[6] (SparseTreeCarryGenN_Nbit32_1)
+                                                          0.00       2.40 f
+  datap/ALU/ADDSUB/CSN/Ci[6] (CarrySumN_Nbit32_1)         0.00       2.40 f
+  datap/ALU/ADDSUB/CSN/CSN_6/Ci (CSBlockN_Nbit4_2)        0.00       2.40 f
+  datap/ALU/ADDSUB/CSN/CSN_6/MUX/S (mux21N_N5_10)         0.00       2.40 f
+  datap/ALU/ADDSUB/CSN/CSN_6/MUX/muxes_0/S (MUX21_50)     0.00       2.40 f
+  datap/ALU/ADDSUB/CSN/CSN_6/MUX/muxes_0/syn33/Z (MUX2_X1)
+                                                          0.07       2.47 f
+  datap/ALU/ADDSUB/CSN/CSN_6/MUX/muxes_0/Y (MUX21_50)     0.00       2.47 f
+  datap/ALU/ADDSUB/CSN/CSN_6/MUX/U[0] (mux21N_N5_10)      0.00       2.47 f
+  datap/ALU/ADDSUB/CSN/CSN_6/S[0] (CSBlockN_Nbit4_2)      0.00       2.47 f
+  datap/ALU/ADDSUB/CSN/S[24] (CarrySumN_Nbit32_1)         0.00       2.47 f
+  datap/ALU/ADDSUB/S[24] (AddSubN_Nbit32_1)               0.00       2.47 f
+  datap/ALU/COMPLog/Diff[24] (Comp_Nbit32)                0.00       2.47 f
+  datap/ALU/COMPLog/U6/ZN (NOR4_X1)                       0.09       2.56 r
+  datap/ALU/COMPLog/U2/ZN (AND4_X1)                       0.08       2.63 r
+  datap/ALU/COMPLog/U16/ZN (NAND2_X1)                     0.03       2.66 f
+  datap/ALU/COMPLog/U21/ZN (NAND2_X1)                     0.03       2.69 r
+  datap/ALU/COMPLog/U30/ZN (XNOR2_X1)                     0.05       2.75 r
+  datap/ALU/COMPLog/AleqB (Comp_Nbit32)                   0.00       2.75 r
+  datap/ALU/AleqB (ALU_v2)                                0.00       2.75 r
+  datap/StatusMux81/in2 (mux81)                           0.00       2.75 r
+  datap/StatusMux81/row1_2/in0 (MUX21_437)                0.00       2.75 r
+  datap/StatusMux81/row1_2/U3/ZN (AOI22_X1)               0.03       2.78 f
+  datap/StatusMux81/row1_2/U2/ZN (INV_X1)                 0.03       2.80 r
+  datap/StatusMux81/row1_2/Y (MUX21_437)                  0.00       2.80 r
+  datap/StatusMux81/row2_1/in1 (MUX21_434)                0.00       2.80 r
+  datap/StatusMux81/row2_1/U3/ZN (NAND2_X1)               0.02       2.83 f
+  datap/StatusMux81/row2_1/U4/ZN (NAND2_X1)               0.03       2.86 r
+  datap/StatusMux81/row2_1/Y (MUX21_434)                  0.00       2.86 r
+  datap/StatusMux81/row3_1/in0 (MUX21_432)                0.00       2.86 r
+  datap/StatusMux81/row3_1/U3/ZN (NAND2_X1)               0.03       2.88 f
+  datap/StatusMux81/row3_1/U4/ZN (NAND2_X1)               0.03       2.91 r
+  datap/StatusMux81/row3_1/Y (MUX21_432)                  0.00       2.91 r
+  datap/StatusMux81/Y (mux81)                             0.00       2.91 r
+  datap/StatusRegEX/D (FD_EN_433)                         0.00       2.91 r
+  datap/StatusRegEX/U4/ZN (NAND2_X1)                      0.03       2.93 f
+  datap/StatusRegEX/U5/ZN (NAND2_X1)                      0.02       2.96 r
+  datap/StatusRegEX/Q_reg/D (DFF_X1)                      0.01       2.97 r
+  data arrival time                                                  2.97
+
+  clock Clk (rise edge)                                   3.00       3.00
+  clock network delay (ideal)                             0.00       3.00
+  datap/StatusRegEX/Q_reg/CK (DFF_X1)                     0.00       3.00 r
+  library setup time                                     -0.03       2.97
+  data required time                                                 2.97
+  --------------------------------------------------------------------------
+  data required time                                                 2.97
+  data arrival time                                                 -2.97
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+

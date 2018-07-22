@@ -1,0 +1,152 @@
+Warning: Design 'ALU_v1_Nbit32' has '1' unresolved references. For more detailed information, use the "link" command. (UID-341)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+        -sort_by group
+Design : ALU_v1_Nbit32
+Version: Z-2007.03-SP1
+Date   : Thu Oct 19 01:04:43 2017
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: A[0] (input port)
+  Endpoint: ALUout[31] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  ALU_v1_Nbit32      5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[0] (in)                                               0.00       0.00 f
+  MUL/a[0] (BoothMulWallace_Nbit32)                       0.00       0.00 f
+  MUL/U387/ZN (INV_X1)                                    0.05       0.05 r
+  MUL/add_72/A[0] (BoothMulWallace_Nbit32_DW01_inc_0)     0.00       0.05 r
+  MUL/add_72/U33/ZN (NAND2_X1)                            0.05       0.09 f
+  MUL/add_72/U31/ZN (NOR3_X1)                             0.09       0.18 r
+  MUL/add_72/U30/ZN (NAND2_X1)                            0.04       0.22 f
+  MUL/add_72/U29/ZN (NOR2_X1)                             0.06       0.28 r
+  MUL/add_72/U28/ZN (NAND2_X1)                            0.04       0.32 f
+  MUL/add_72/U27/ZN (NOR2_X1)                             0.06       0.38 r
+  MUL/add_72/U26/ZN (NAND2_X1)                            0.04       0.42 f
+  MUL/add_72/U24/ZN (NOR2_X1)                             0.07       0.49 r
+  MUL/add_72/U19/ZN (NAND3_X1)                            0.05       0.54 f
+  MUL/add_72/U17/ZN (NOR2_X1)                             0.06       0.60 r
+  MUL/add_72/U14/ZN (NAND2_X1)                            0.04       0.64 f
+  MUL/add_72/U12/ZN (NOR2_X1)                             0.05       0.69 r
+  MUL/add_72/U11/Z (XOR2_X1)                              0.06       0.75 r
+  MUL/add_72/SUM[15] (BoothMulWallace_Nbit32_DW01_inc_0)
+                                                          0.00       0.75 r
+  MUL/U256/ZN (AND2_X1)                                   0.04       0.79 r
+  MUL/U31/ZN (AOI211_X4)                                  0.08       0.87 f
+  MUL/U4/ZN (NOR2_X4)                                     0.23       1.10 r
+  MUL/CSA0/A[15] (CSA_N32_0)                              0.00       1.10 r
+  MUL/CSA0/st0_15/A (FA_497)                              0.00       1.10 r
+  MUL/CSA0/st0_15/U4/Z (XOR2_X1)                          0.11       1.21 r
+  MUL/CSA0/st0_15/U1/Z (XOR2_X1)                          0.09       1.30 r
+  MUL/CSA0/st0_15/S (FA_497)                              0.00       1.30 r
+  MUL/CSA0/sum_out[15] (CSA_N32_0)                        0.00       1.30 r
+  MUL/CSA5/A[15] (CSA_N32_9)                              0.00       1.30 r
+  MUL/CSA5/st0_15/A (FA_337)                              0.00       1.30 r
+  MUL/CSA5/st0_15/U4/Z (XOR2_X1)                          0.09       1.39 r
+  MUL/CSA5/st0_15/U1/Z (XOR2_X1)                          0.09       1.47 r
+  MUL/CSA5/st0_15/S (FA_337)                              0.00       1.47 r
+  MUL/CSA5/sum_out[15] (CSA_N32_9)                        0.00       1.47 r
+  MUL/CSA8/A[15] (CSA_N32_6)                              0.00       1.47 r
+  MUL/CSA8/st0_15/A (FA_241)                              0.00       1.47 r
+  MUL/CSA8/st0_15/U4/Z (XOR2_X1)                          0.09       1.56 r
+  MUL/CSA8/st0_15/U1/Z (XOR2_X1)                          0.09       1.64 r
+  MUL/CSA8/st0_15/S (FA_241)                              0.00       1.64 r
+  MUL/CSA8/sum_out[15] (CSA_N32_6)                        0.00       1.64 r
+  MUL/CSA10/A[15] (CSA_N32_4)                             0.00       1.64 r
+  MUL/CSA10/st0_15/A (FA_177)                             0.00       1.64 r
+  MUL/CSA10/st0_15/U4/Z (XOR2_X1)                         0.09       1.73 r
+  MUL/CSA10/st0_15/U1/Z (XOR2_X1)                         0.09       1.81 r
+  MUL/CSA10/st0_15/S (FA_177)                             0.00       1.81 r
+  MUL/CSA10/sum_out[15] (CSA_N32_4)                       0.00       1.81 r
+  MUL/CSA12/A[15] (CSA_N32_2)                             0.00       1.81 r
+  MUL/CSA12/st0_15/A (FA_113)                             0.00       1.81 r
+  MUL/CSA12/st0_15/U4/Z (XOR2_X1)                         0.09       1.90 r
+  MUL/CSA12/st0_15/U1/Z (XOR2_X1)                         0.09       1.98 r
+  MUL/CSA12/st0_15/S (FA_113)                             0.00       1.98 r
+  MUL/CSA12/sum_out[15] (CSA_N32_2)                       0.00       1.98 r
+  MUL/CSA13/A[15] (CSA_N32_1)                             0.00       1.98 r
+  MUL/CSA13/st0_15/A (FA_81)                              0.00       1.98 r
+  MUL/CSA13/st0_15/U4/Z (XOR2_X1)                         0.09       2.07 r
+  MUL/CSA13/st0_15/U1/Z (XOR2_X1)                         0.13       2.20 r
+  MUL/CSA13/st0_15/S (FA_81)                              0.00       2.20 r
+  MUL/CSA13/sum_out[15] (CSA_N32_1)                       0.00       2.20 r
+  MUL/P4A14/A[15] (P4adderN_Nbit32)                       0.00       2.20 r
+  MUL/P4A14/STCG/A[15] (SparseTreeCarryGenNBM_Nbit32)     0.00       2.20 r
+  MUL/P4A14/STCG/PGB_0_16/A (PGblock_17_1)                0.00       2.20 r
+  MUL/P4A14/STCG/PGB_0_16/U1/Z (XOR2_X1)                  0.05       2.25 f
+  MUL/P4A14/STCG/PGB_0_16/P (PGblock_17_1)                0.00       2.25 f
+  MUL/P4A14/STCG/PG1_2_1_8/P1 (PG_21_1)                   0.00       2.25 f
+  MUL/P4A14/STCG/PG1_2_1_8/U3/ZN (AOI21_X1)               0.05       2.31 r
+  MUL/P4A14/STCG/PG1_2_1_8/U2/ZN (INV_X1)                 0.02       2.33 f
+  MUL/P4A14/STCG/PG1_2_1_8/Gout (PG_21_1)                 0.00       2.33 f
+  MUL/P4A14/STCG/PG1_2_2_4/G1 (PG_10_1)                   0.00       2.33 f
+  MUL/P4A14/STCG/PG1_2_2_4/U3/ZN (AOI21_X1)               0.05       2.38 r
+  MUL/P4A14/STCG/PG1_2_2_4/U2/ZN (INV_X1)                 0.02       2.40 f
+  MUL/P4A14/STCG/PG1_2_2_4/Gout (PG_10_1)                 0.00       2.40 f
+  MUL/P4A14/STCG/PG3_3_4/G1 (PG_5_1)                      0.00       2.40 f
+  MUL/P4A14/STCG/PG3_3_4/U3/ZN (AOI21_X1)                 0.05       2.45 r
+  MUL/P4A14/STCG/PG3_3_4/U2/ZN (INV_X1)                   0.02       2.48 f
+  MUL/P4A14/STCG/PG3_3_4/Gout (PG_5_1)                    0.00       2.48 f
+  MUL/P4A14/STCG/G3_E_4_3/G1 (G_5_1)                      0.00       2.48 f
+  MUL/P4A14/STCG/G3_E_4_3/U2/ZN (AOI21_X1)                0.05       2.53 r
+  MUL/P4A14/STCG/G3_E_4_3/U1/ZN (INV_X1)                  0.05       2.58 f
+  MUL/P4A14/STCG/G3_E_4_3/Gout (G_5_1)                    0.00       2.58 f
+  MUL/P4A14/STCG/G3_E_5_6/G2 (G_2_1)                      0.00       2.58 f
+  MUL/P4A14/STCG/G3_E_5_6/U2/ZN (AOI21_X1)                0.06       2.64 r
+  MUL/P4A14/STCG/G3_E_5_6/U1/ZN (INV_X1)                  0.04       2.68 f
+  MUL/P4A14/STCG/G3_E_5_6/Gout (G_2_1)                    0.00       2.68 f
+  MUL/P4A14/STCG/Cout[7] (SparseTreeCarryGenNBM_Nbit32)
+                                                          0.00       2.68 f
+  MUL/P4A14/CSN/Ci[7] (CarrySumNBM_Nbit32)                0.00       2.68 f
+  MUL/P4A14/CSN/CSN_7/Ci (CSBlockNBM_Nbit4_1)             0.00       2.68 f
+  MUL/P4A14/CSN/CSN_7/MUX/S (mux21N_N5_1_1)               0.00       2.68 f
+  MUL/P4A14/CSN/CSN_7/MUX/muxes_3/S (MUX21_2_1)           0.00       2.68 f
+  MUL/P4A14/CSN/CSN_7/MUX/muxes_3/U1/Z (MUX2_X1)          0.07       2.75 f
+  MUL/P4A14/CSN/CSN_7/MUX/muxes_3/Y (MUX21_2_1)           0.00       2.75 f
+  MUL/P4A14/CSN/CSN_7/MUX/U[3] (mux21N_N5_1_1)            0.00       2.75 f
+  MUL/P4A14/CSN/CSN_7/S[3] (CSBlockNBM_Nbit4_1)           0.00       2.75 f
+  MUL/P4A14/CSN/S[31] (CarrySumNBM_Nbit32)                0.00       2.75 f
+  MUL/P4A14/S[31] (P4adderN_Nbit32)                       0.00       2.75 f
+  MUL/p[31] (BoothMulWallace_Nbit32)                      0.00       2.75 f
+  MUXout/in2[31] (mux161N)                                0.00       2.75 f
+  MUXout/row1_2/in0[31] (mux21N_N32_14)                   0.00       2.75 f
+  MUXout/row1_2/muxes_31/in0 (MUX21_417)                  0.00       2.75 f
+  MUXout/row1_2/muxes_31/U1/Z (MUX2_X1)                   0.06       2.81 f
+  MUXout/row1_2/muxes_31/Y (MUX21_417)                    0.00       2.81 f
+  MUXout/row1_2/U[31] (mux21N_N32_14)                     0.00       2.81 f
+  MUXout/row2_1/in1[31] (mux21N_N32_7)                    0.00       2.81 f
+  MUXout/row2_1/muxes_31/in1 (MUX21_193)                  0.00       2.81 f
+  MUXout/row2_1/muxes_31/U1/Z (MUX2_X1)                   0.06       2.88 f
+  MUXout/row2_1/muxes_31/Y (MUX21_193)                    0.00       2.88 f
+  MUXout/row2_1/U[31] (mux21N_N32_7)                      0.00       2.88 f
+  MUXout/row3_1/in0[31] (mux21N_N32_3)                    0.00       2.88 f
+  MUXout/row3_1/muxes_31/in0 (MUX21_65)                   0.00       2.88 f
+  MUXout/row3_1/muxes_31/U1/Z (MUX2_X1)                   0.06       2.94 f
+  MUXout/row3_1/muxes_31/Y (MUX21_65)                     0.00       2.94 f
+  MUXout/row3_1/U[31] (mux21N_N32_3)                      0.00       2.94 f
+  MUXout/row4_1/in0[31] (mux21N_N32_1)                    0.00       2.94 f
+  MUXout/row4_1/muxes_31/in0 (MUX21_0)                    0.00       2.94 f
+  MUXout/row4_1/muxes_31/U1/Z (MUX2_X1)                   0.06       3.00 f
+  MUXout/row4_1/muxes_31/Y (MUX21_0)                      0.00       3.00 f
+  MUXout/row4_1/U[31] (mux21N_N32_1)                      0.00       3.00 f
+  MUXout/Y[31] (mux161N)                                  0.00       3.00 f
+  ALUout[31] (out)                                        0.00       3.01 f
+  data arrival time                                                  3.01
+  --------------------------------------------------------------------------
+  (Path is unconstrained)
+
+

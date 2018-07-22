@@ -1,0 +1,23 @@
+ 
+****************************************
+Report : area
+Design : LogicFun_v2_Nbit32
+Version: Z-2007.03-SP1
+Date   : Thu Oct 19 00:14:09 2017
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/mariagrazia.graziano/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db)
+
+Number of ports:              320
+Number of nets:               320
+Number of cells:              256
+Number of references:           5
+
+Combinational area:        238.335997
+Noncombinational area:       0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:           238.335999
+Total area:                 undefined
